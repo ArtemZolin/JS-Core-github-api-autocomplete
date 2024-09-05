@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 10px; */
+}
+
+h1 {
+    padding: 10px;
+}
+
+.input {
+    padding: 5px;
+    width: 304px;
+}
+
+
+li {
+    border: 1px solid black;
+    width: 300px;
+    padding: 5px;
+
+
+}
+.li-redux:hover {
+    background-color: rgb(194, 216, 216);
+
+}
+
+.redux-action {
+    margin-top: 100px;
+
+}
+
+.li-redux-action {
+    position: relative
+}
+
+div {
+    width: auto;
+
+}
+
+button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    width: 40px;
+    height: 40px;
+
+    /* border: 1px solid black; */
+    background-image: url(background/pngwing.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
